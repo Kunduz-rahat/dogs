@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*### About##*/
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    background-color: #3941FF;
+    padding: 22px 0;
+}
+
+.header-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.header-menu {
+    text-align: center;
+}
+
+/*### hero##*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.hero {
+    color: #FFFFFF;
+    background: linear-gradient(114.08deg, #3941FF 13.97%, #00D1FF 100%), #FFFFFF;
+    padding-top: 165px;
+}
+
+.hero-item {
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.hero-itemtwo {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 18px 0 24px;
+
+}
+
+.hero-desk {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.readmore {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #3941FF;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 18px 59px;
+}
+
+.services {
+    text-align: center;
+    color: #3941FF;
+}
+
+.services-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 67px 0 40px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    color: #0008C7;
+;
+}
+.card{
+    background: #FFFFFF;
+    border: 1px solid #3941FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 43px 45px 64px;
+
+}
+.services-img{
+   padding: 28px 31px;
+    border-radius: 50%;
+    background-color: #3941FF;
+    margin-bottom: 42px;
+}
+.card-desk{
+    color: #4F52A1;
+}
